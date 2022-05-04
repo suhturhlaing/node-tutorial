@@ -1,0 +1,17 @@
+{
+  "name": "tech2",
+  "version": "1.0.0",
+  "description": "this is tect2 tuto",
+  "main": "app.js",
+  "scripts": {
+    "dev" : "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "exports" : {
+    "./a" : "./alpha/a.js",
+    "./b" : "./alpha/b.js",
+    "./num/*" : "./number/*.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
